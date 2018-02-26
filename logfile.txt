@@ -1,0 +1,6 @@
+Amount exceeds balance by [-99.3500000000000227373675443232059478759765625]
+Amount exceeds balance by [($99.35)]
+Amount exceeds balance by [($99.35)]
+Amount exceeds balance by ($99.35)
+Amount exceeds balance by ($99.35)
+Amount exceeds balance by ($99.35)
