@@ -15,7 +15,7 @@ public class ATM {
 	public ATM() {
 		super();
 		// TODO Auto-generated constructor stub
-		account = new BankAccount(500.75);
+		account = new BankAccount(500);
 	}
 	
 	/**
@@ -24,14 +24,14 @@ public class ATM {
 	 */
 	public void handTransactions() throws IOException{
 		try {
-			account.withdraw(600.1);
+			account.withdraw(600);
 		}catch (NegativeBalanceException e){
 			System.out.println(e);
 			System.out.println(e.getMessage());
 		}
 		
 		try {
-			account.quickWithdraw(600.5);
+			account.quickWithdraw(600);
 		}catch (NegativeBalanceException e){
 			System.out.println(e);
 			System.out.println(e.getMessage());

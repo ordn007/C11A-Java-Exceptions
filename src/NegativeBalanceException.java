@@ -32,7 +32,7 @@ public class NegativeBalanceException extends Exception {
 		super("Amount exceeds balance by" + NumberFormat.getCurrencyInstance().format(negBalance));
 		this.negativeBalance = negBalance;
 		
-		FileWriter fw = new FileWriter("logfile.txt", true);
+		FileWriter fw = new FileWriter("logfile.txt", true);	// this appended to the file if it already exists
 		PrintWriter out = new PrintWriter(fw);
 		out.println("Amount exceeds balance by " + NumberFormat.getCurrencyInstance().format(negBalance));
 		out.close();
@@ -49,10 +49,4 @@ public class NegativeBalanceException extends Exception {
 			return "\n" + "Illegeal Argument Is Not Allowed";
 		}
 	}
-	
-	
-
-
-
-
 }

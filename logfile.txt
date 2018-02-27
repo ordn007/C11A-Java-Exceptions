@@ -4,3 +4,5 @@ Amount exceeds balance by [($99.35)]
 Amount exceeds balance by ($99.35)
 Amount exceeds balance by ($99.35)
 Amount exceeds balance by ($99.35)
+Amount exceeds balance by ($99.35)
+Amount exceeds balance by ($100.00)
